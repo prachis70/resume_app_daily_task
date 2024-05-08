@@ -2,15 +2,72 @@
 
 A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+# Project Title
 
-A few resources to get you started if this is your first Flutter project:
+A brief description of what this project does and who it's for
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# 1. Create a statusbar using appbar?
+# Code Example:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+
+class homepage extends StatefulWidget {
+  const homepage({super.key});
+
+  @override
+  State<homepage> createState() => _homepageState();
+}
+
+class _homepageState extends State<homepage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text('Home Page'),
+        systemOverlayStyle: SystemUiOverlayStyle(
+          statusBarColor: Colors.cyan,
+          systemNavigationBarColor:Colors.cyan,
+        ),
+      ),
+    );
+  }
+}
+```
+# 2. Create a statusbar without using appbar?
+# Code Example:
+```bash
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:resume_app_daily_task/utils/routes.dart';
+void main()
+{
+  runApp(ResumeApp());
+}
+class ResumeApp extends StatelessWidget {
+  const ResumeApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+     SystemChrome.setSystemUIOverlayStyle(
+      SystemUiOverlayStyle(statusBarColor: Colors.cyan),
+     );
+      SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.landscapeRight
+    ]);
+    return MaterialApp(
+        debugShowCheckedModeBanner: false,
+       routes: Approutes.routes,
+    );
+  }
+}
+```
+
+
+
+
