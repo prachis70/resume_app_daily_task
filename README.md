@@ -172,6 +172,31 @@ List:
 
 - List is collection of multiple values of any datatype. -> List is user defained datatype.
 
+# 5.Map
+- Map is an object that stores data in the form of a key-value pair.
 
+# Code Example:
+```bash
+void main()
+{
+    Map n1={
+    'Goodsname ':'mobile',
+    'price':50000,
+    };
+    print(n1['price']);
+}
+```
+- length of map.
+```bash
+void main()
+{
+    Map n1={
+    'goodsname':'mobile',
+    'price':500000,
+    };
+    print(n1.length);
+    
+}
+```
 
 
