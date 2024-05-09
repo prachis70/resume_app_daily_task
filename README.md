@@ -1,5 +1,4 @@
 # resume_app_daily_task
-
 A new Flutter project.
 
 
@@ -198,5 +197,8 @@ void main()
     
 }
 ```
+<img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/0ffc44ee-aab3-48f7-804d-32203559e67e" heigth=22% width=35%>
+<img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/5f38bc4f-e502-4dcf-859a-56d4aab22e0b" heigth=22% width=35%>
+
 
 
