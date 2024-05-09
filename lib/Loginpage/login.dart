@@ -53,6 +53,7 @@ class _LoginpageState extends State<Loginpage> {
                 
 
               ),
+
               child: Column(
                 children: [
                   Text('Build Awesome Apps',style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.black),),
