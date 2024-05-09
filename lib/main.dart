@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:resume_app_daily_task/screens/Drawer/drawer.dart';
 import 'package:resume_app_daily_task/utils/routes.dart';
 void main()
 {
@@ -10,16 +11,19 @@ class ResumeApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-     SystemChrome.setSystemUIOverlayStyle(
-      SystemUiOverlayStyle(statusBarColor: Colors.cyan),
-     );
-      SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeLeft,
-      DeviceOrientation.landscapeRight
-    ]);
+    //  SystemChrome.setSystemUIOverlayStyle(
+    //   SystemUiOverlayStyle(statusBarColor: Colors.cyan),
+    //  );
+    //   SystemChrome.setPreferredOrientations([
+    //   DeviceOrientation.landscapeLeft,
+    //   DeviceOrientation.landscapeRight
+    // ]);
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-       routes: Approutes.routes,
+       //routes: Approutes.routes,
+      routes: {
+          '/':(context) => drawerPage(),
+      },
     );
   }
 }
