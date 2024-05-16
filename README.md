@@ -1,3 +1,5 @@
+
+https://github.com/prachis70/resume_app_daily_task/assets/149580593/c7b28e90-94fb-4ef9-ae5a-4a9f3fa570ea
 # resume_app_daily_task
 A new Flutter project.
 
@@ -199,6 +201,21 @@ void main()
 ```
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/0ffc44ee-aab3-48f7-804d-32203559e67e" heigth=22% width=35%>
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/5f38bc4f-e502-4dcf-859a-56d4aab22e0b" heigth=22% width=35%>
+<img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/3444674b-913a-4e60-ad7c-479574c30f23" heigth=22% width=35%>
+<img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/424de22a-3896-4e67-b02a-e218aa106059" heigth=22% width=35%>
+<img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/d5348b84-7eb1-43e1-ac32-8d944c1bf19d" heigth=22% width=35%>
+<img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/aebd0629-4f33-4660-bbbc-b4451e92345d" heigth=22% width=35%>
+<img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/4614fe22-74fb-4375-91ab-681d9eaadddb" heigth=22% width=35%>
+<img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/ea1c49d3-3e91-41f6-bf89-d8ff730bdbe3" heigth=22% width=35%>
+<video src="Uploading Screen_recording_20240513_161653.mp4…" heigth=22% width=35%>
+
+
+
+
+
+
+
+
 
 
 
