@@ -6,6 +6,7 @@ import 'package:resume_app_daily_task/screens/Email/Email.dart';
 import 'package:resume_app_daily_task/screens/Email/Password.dart';
 import 'package:resume_app_daily_task/screens/Email/seccessfullogin.dart';
 import 'package:resume_app_daily_task/screens/SnackBar/snackbar.dart';
+import 'package:resume_app_daily_task/screens/imagepicker/picker.dart';
 import 'package:resume_app_daily_task/utils/routes.dart';
 void main()
 {
@@ -33,7 +34,8 @@ class ResumeApp extends StatelessWidget {
         // '/':(context) => Email(),
         // '/pass':(context) => passwordPage(),
         // '/succses':(context) =>Successful(),
-        '/':  (context) => bar(),
+        //'/':  (context) => bar(),
+        '/': (context) => imagepicker(),
       },
     );
   }

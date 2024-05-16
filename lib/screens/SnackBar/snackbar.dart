@@ -79,23 +79,23 @@ class _barState extends State<bar> {
   }
 }
 List pr=[
+{
+'img':'assets/imgs/p1.jpeg',
+},
+{
+  'img':'assets/imgs/p2.jpeg',
+},
   {
-    'img':'assets/images/pr2.jpg',
+    'img':'assets/imgs/p3.jpeg',
   },
   {
-    'img':'assets/images/pr3.jpg',
+    'img':'assets/imgs/p4.jpeg',
   },
   {
-    'img':'assets/images/pr4.jpg',
+    'img':'assets/imgs/p5.jpeg',
   },
   {
-    'img':'assets/images/pr5.jpg',
-  },
-  {
-    'img':'assets/images/pr2.jpg',
-  },
-  {
-    'img':'assets/images/pr3.jpg',
+    'img':'assets/imgs/p6.jpeg',
   },
 ];
 List favorite=[];
