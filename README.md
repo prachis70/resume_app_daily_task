@@ -207,7 +207,14 @@ void main()
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/aebd0629-4f33-4660-bbbc-b4451e92345d" heigth=22% width=35%>
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/4614fe22-74fb-4375-91ab-681d9eaadddb" heigth=22% width=35%>
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/ea1c49d3-3e91-41f6-bf89-d8ff730bdbe3" heigth=22% width=35%>
-<video src="Uploading Screen_recording_20240513_161653.mp4…" heigth=22% width=35%>
+
+# Image_Picker
+<img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/cbca0244-1d60-4bfc-b5d9-81090a384f69" heigth=22% width=35%>
+<img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/16531045-82c6-4696-ab09-9b7bc165e794" heigth=22% width=35%>
+<img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/3a963e7f-7f26-4691-abbe-3e7ba8544dd7" heigth=22% width=35%>
+<img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/9a6dee7e-8519-4360-a6a2-9229a16269d0" heigth=22% width=35%>
+
+
 
 
 
