@@ -68,7 +68,7 @@ class _imagepickerState extends State<imagepicker> {
           ),
           Container(
             height: 50,
-            width: 300,
+            width: 200,
             decoration: BoxDecoration(
                 color: Colors.teal,
                 borderRadius: BorderRadius.circular(10)
