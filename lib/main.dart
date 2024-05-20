@@ -9,6 +9,7 @@ import 'package:resume_app_daily_task/screens/Email/seccessfullogin.dart';
 import 'package:resume_app_daily_task/screens/SnackBar/snackbar.dart';
 import 'package:resume_app_daily_task/screens/imagepicker/picker.dart';
 import 'package:resume_app_daily_task/screens/ragistation_form/form.dart';
+import 'package:resume_app_daily_task/screens/ragistation_form/form1.dart';
 import 'package:resume_app_daily_task/utils/routes.dart';
 void main()
 {
@@ -38,8 +39,9 @@ class ResumeApp extends StatelessWidget {
         // '/succses':(context) =>Successful(),
         //'/':  (context) => bar(),
        // '/': (context) => imagepicker(),
-       // '/':(context) => form(),
-        '/':(context) => Dynamictxtfield(),
+        '/':(context) => form(),
+        '/f1': (context) => form1(),
+        //'/':(context) => Dynamictxtfield(),
       },
     );
   }

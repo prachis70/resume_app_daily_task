@@ -1,7 +1,8 @@
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-
+import 'package:resume_app_daily_task/screens/ragistation_form/form.dart';
 
 String name='nothing entered!!!';
 String surname='nothing entered!!!';
@@ -12,7 +13,6 @@ String natioin='nothing entered!!!';
 String id_num='nothing entered!!!';
 String position='nothing entered!!!';
 
-
 String gender='male';
 bool drawing=false;
 bool camping=false;
@@ -20,8 +20,6 @@ TextEditingController  txtController=TextEditingController();
 List txtControllerList=[
   txtController,
 ];
-
-
 Padding box1({required TextEditingController? controller})
 {
   return Padding(
@@ -34,14 +32,12 @@ Padding box1({required TextEditingController? controller})
         {
           return 'field must be required!!';
         }
-
       },
-
       style: TextStyle(height: 1),
 
       decoration: InputDecoration(
-        labelText: 'Position',
-        hintText: 'Manager',
+        labelText: 'position',
+        hintText: 'manager',
 
         border: OutlineInputBorder(
           borderSide: BorderSide(color: Colors.black),
@@ -79,14 +75,13 @@ Padding id({required TextEditingController? controller})
           return 'the enter value is more then 3';
 
         }
-
       },
       keyboardType: TextInputType.number,
       style: TextStyle(height: 1),
 
       decoration: InputDecoration(
         labelText: 'Id_number',
-        hintText: '9995',
+        hintText: '5732',
 
         border: OutlineInputBorder(
           borderSide: BorderSide(color: Colors.black),
@@ -129,7 +124,7 @@ Padding phone_num_1({required TextEditingController? controller})
 
       decoration: InputDecoration(
         labelText: 'Phone',
-        hintText: '9995236745',
+        hintText: '9510953469',
 
         border: OutlineInputBorder(
           borderSide: BorderSide(color: Colors.black),
@@ -180,7 +175,7 @@ Padding gmail_box({required TextEditingController? controller})
 
       decoration: InputDecoration(
         labelText: 'Gmail',
-        hintText: 'krupa@gmail.com',
+        hintText: 'prachis@gmail.com',
 
         border: OutlineInputBorder(
           borderSide: BorderSide(color: Colors.black),
@@ -219,7 +214,7 @@ Padding dob_box({required TextEditingController? controller})
 
       decoration: InputDecoration(
         labelText: 'DD/MM/YY',
-        hintText: '22/10/2006',
+        hintText: '16/07/2006',
 
         border: OutlineInputBorder(
           borderSide: BorderSide(color: Colors.black),

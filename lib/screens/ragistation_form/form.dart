@@ -1,20 +1,17 @@
 
 import 'dart:io';
-
 import 'package:flutter/material.dart';
-import 'package:resume_app_daily_task/utils/Global_var.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:resume_app_daily_task/screens/Dynamic_TextField/Textfield.dart';
 import 'package:resume_app_daily_task/utils/Global_var.dart';
 
 ImagePicker imagePicker=ImagePicker();
 File ?fileImage;
 
-class idPage extends StatefulWidget {
-  const idPage({super.key});
+class form extends StatefulWidget {
+  const form({super.key});
 
   @override
-  State<idPage> createState() => _idPageState();
+  State<form> createState() => _formState();
 }
 TextEditingController txtName=TextEditingController();
 TextEditingController txtSurname=TextEditingController();
@@ -26,10 +23,11 @@ TextEditingController txtDob=TextEditingController();
 TextEditingController txtNatioin=TextEditingController();
 GlobalKey<FormState> formKey=GlobalKey();
 
-class _idPageState extends State<idPage> {
+class _formState extends State<form> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey,
       appBar: AppBar(
         backgroundColor:Color(0XFF1b5bb5),
         title:const  Center(
@@ -53,7 +51,7 @@ class _idPageState extends State<idPage> {
               ),
               Padding(
                 padding: const EdgeInsets.only(right: 108),
-                child: Text('Welcome to Registratioin....',style: TextStyle(fontSize:16,fontFamily: 'poppins',),),
+                child: Text('Registratioin..',style: TextStyle(fontSize:16,fontFamily: 'poppins',),),
               ),
 
               SizedBox(
@@ -106,7 +104,7 @@ class _idPageState extends State<idPage> {
 
                                 if(value!.isEmpty)
                                 {
-                                  return 'field must be required!!';
+                                  return 'field must be required';
                                 }
                               },
                               decoration: InputDecoration(
@@ -128,7 +126,7 @@ class _idPageState extends State<idPage> {
 
                             if(value!.isEmpty)
                             {
-                              return 'field must be required!!';
+                              return 'field must be required';
                             }
                           },
 
@@ -221,7 +219,7 @@ class _idPageState extends State<idPage> {
                               ],
                               borderRadius: BorderRadius.circular(10)
                           ),
-                          child: Center(child: Text('All Add to TextFiled',style: TextStyle(
+                          child: Center(child: Text('Add to TextFiled',style: TextStyle(
                             fontSize:16,
                             fontWeight: FontWeight.bold,
                             color: Color(0XFF1b5bb5),
@@ -268,7 +266,7 @@ class _idPageState extends State<idPage> {
                         title: TextField(
                           controller: txtControllerList[index],
                           decoration: InputDecoration(
-                            hintText:'Enter the your choies programming lagauges',
+                            hintText:'Enter lagauges',
                             border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(10),
                                 borderSide: BorderSide(
@@ -330,11 +328,8 @@ class _idPageState extends State<idPage> {
                         skills=skills+ " " +txtControllerList[i].text;
                       }
                       print(skills);
-                      // ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('${skills}${txtControllerList[1].text}',style: TextStyle(
-                      //     color: Colors.white,fontSize: 18
-                      // ),)));
                       ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('${skills} ${txtControllerList.length}')));
-                      Navigator.of(context).pushNamed('/id');
+                      Navigator.of(context).pushNamed('/f1');
                     }
 
 
