@@ -209,6 +209,9 @@ void main()
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/96ec6f0e-52e9-44c4-a9e0-1ec818e06e6d" heigth=20% width=25%>
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/bef4fc1d-da08-45d2-896c-5a8b701b9140" heigth=20% width=25%>
 
+# 😊...Snack_Bar...😊
+<img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/7be5f54e-3242-4b94-a3d7-b9b4fa477d6c" heigth=20% width=25%>
+
 
 # 😊...Image_Picker...😊
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/cbca0244-1d60-4bfc-b5d9-81090a384f69" heigth=22% width=35%>
