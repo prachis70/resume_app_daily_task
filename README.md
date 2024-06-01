@@ -190,13 +190,13 @@ void main()
     
 }
 ```
-# 😊...Drawer_Page...😊
+# ..Drawer_Page...
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/0ffc44ee-aab3-48f7-804d-32203559e67e" heigth=20% width=25%>
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/5f38bc4f-e502-4dcf-859a-56d4aab22e0b" heigth=20% width=25%>
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/3444674b-913a-4e60-ad7c-479574c30f23" heigth=20% width=25%>
 
 
-# 😊...Login_Pages...😊
+# ...Login_Pages...
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/424de22a-3896-4e67-b02a-e218aa106059" heigth=22% width=35%>
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/d5348b84-7eb1-43e1-ac32-8d944c1bf19d" heigth=22% width=35%>
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/aebd0629-4f33-4660-bbbc-b4451e92345d" heigth=22% width=35%>
@@ -204,16 +204,16 @@ void main()
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/ea1c49d3-3e91-41f6-bf89-d8ff730bdbe3" heigth=22% width=35%>
 
 
-# 😊...Dynamic_TextField...😊
+# ..Dynamic_TextField...
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/43f9bc32-ac72-4edc-9101-1e03572936a8" heigth=20% width=25%>
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/96ec6f0e-52e9-44c4-a9e0-1ec818e06e6d" heigth=20% width=25%>
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/bef4fc1d-da08-45d2-896c-5a8b701b9140" heigth=20% width=25%>
 
-# 😊...Snack_Bar...😊
+# ...Snack_Bar...
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/7be5f54e-3242-4b94-a3d7-b9b4fa477d6c" heigth=20% width=25%>
 
 
-# 😊...Image_Picker...😊
+# ..Image_Picker...
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/cbca0244-1d60-4bfc-b5d9-81090a384f69" heigth=22% width=35%>
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/16531045-82c6-4696-ab09-9b7bc165e794" heigth=22% width=35%>
 <img src="https://github.com/prachis70/resume_app_daily_task/assets/149580593/3a963e7f-7f26-4691-abbe-3e7ba8544dd7" heigth=22% width=35%>
